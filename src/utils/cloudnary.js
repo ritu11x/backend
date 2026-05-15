@@ -21,3 +21,5 @@ const uploadOnCloudinaty= async (localFilePath)=>{
 }
 cloudinary.v2.uploader("",{},function(){})
 
+export {uploadOnCloudinaty}
+
