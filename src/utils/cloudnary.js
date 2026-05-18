@@ -17,7 +17,7 @@ const uploadOnCloudinaty= async (localFilePath)=>{
         return response
     }catch(error){
         fs.unlinkSync(localFilePath)
-    }
+    } 
 }
 cloudinary.v2.uploader("",{},function(){})
 
